@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9117F772989C0CC006A78FB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9117F762989C0CC006A78FB /* ViewModel.swift */; };
 		E91E6C95298977C70043B576 /* AIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E6C94298977C70043B576 /* AIAppApp.swift */; };
 		E91E6C97298977C70043B576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E6C96298977C70043B576 /* ContentView.swift */; };
 		E91E6C99298977CA0043B576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91E6C98298977CA0043B576 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9117F762989C0CC006A78FB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E91E6C91298977C70043B576 /* AIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91E6C94298977C70043B576 /* AIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAppApp.swift; sourceTree = "<group>"; };
 		E91E6C96298977C70043B576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9117F752989C0A5006A78FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9117F762989C0CC006A78FB /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E91E6C88298977C70043B576 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 		E91E6C93298977C70043B576 /* AIApp */ = {
 			isa = PBXGroup;
 			children = (
+				E9117F752989C0A5006A78FB /* ViewModel */,
 				E91E6C94298977C70043B576 /* AIAppApp.swift */,
 				E91E6C96298977C70043B576 /* ContentView.swift */,
 				E91E6C98298977CA0043B576 /* Assets.xcassets */,
@@ -146,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91E6C97298977C70043B576 /* ContentView.swift in Sources */,
+				E9117F772989C0CC006A78FB /* ViewModel.swift in Sources */,
 				E91E6C95298977C70043B576 /* AIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
